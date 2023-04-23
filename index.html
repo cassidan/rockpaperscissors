@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>Rock, Papper, Scissors</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="javascript.js"></script>
+  <script src="javascript.js" defer></script>
 </head>
+
 <body>
-  <script>
 
-    
+<div id="container">
+  <div id="playerDiv">
+    <p>Your score:</p>
+    <p id="playerScore">0</p>
+  </div>
+  <div id="buttons">
+    <button id="Rock">Rock</button>
+    <button id="Paper">Paper</button>
+    <button id="Scissors">Scissors</button>
+  </div>
+  <div id="computerDiv">
+    <p>Computer's score:</p>
+    <p id="computerScore">0</p>
+  </div>
+</div>
 
-  </script>
+<div id="record">
+  <p id="recordPlayerChoice"></p>
+  <p id="recordComputerChoice"></p>
+  <p id="recordResult"></p>
+</div>
+
 </body>
 </html>
